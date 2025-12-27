@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-con{
+    background-color: black;
+    min-height: 100vh;
+}
+.second-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+    overflow: hidden;
+    
+}
+.text{
+    width: 40%;
+    
+}
+.img-phone{
+    width: 180px;
+    height: 300px;
+}
+.second-con .text h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgb(246, 246, 246);
+}
+.second-con .text p{
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 40px;
+
+}
+.second-con .text a{
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    padding: 9px  15px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.second-con .image{
+    width: 30%;
+   
+}
+.icons{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons img{
+     width: 100px;
+    height: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.icons img:hover{
+    transform: scale(1.2);
+    
+}
